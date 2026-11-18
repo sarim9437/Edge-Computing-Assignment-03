@@ -1,0 +1,4 @@
+model,description,precision,accuracy_pct,checkpoint_mb,gzip_mb,compression_x,gzip_compression_x,params,nonzero_weights,weight_sparsity_pct,dense_mmacs,latency_ms_mean,latency_ms_p50,latency_ms_p95,throughput_img_s,test_time_s
+fp32,Baseline ResNet-18 (FP32),FP32,89.77,42.699,39.518,1.0,1.0,11173962,11164352,0.0,138.86,7.09,7.136,8.078,492.1,20.32
+ptq,Post-training static quantization (INT8),INT8,89.87,10.785,9.675,3.96,4.08,11173962,,,,1.219,1.193,1.499,2036.6,4.91
+qat,Quantization-aware training (INT8),INT8,89.7,10.785,9.688,3.96,4.08,11173962,,,,1.283,1.283,1.606,2001.7,5.0

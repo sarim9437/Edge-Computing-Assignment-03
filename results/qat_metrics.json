@@ -1,0 +1,11 @@
+{
+  "backend": "fbgemm",
+  "epochs": 2,
+  "lr": 0.001,
+  "fp32_acc": 89.77,
+  "int8_acc": 89.7,
+  "fp32_mb": 42.69921684265137,
+  "int8_mb": 10.784658432006836,
+  "qat_minutes": 27.444075234731038,
+  "onnx_export": "QAT weights -> ORT static quantization"
+}

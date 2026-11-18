@@ -1,0 +1,9 @@
+{
+  "backend": "fbgemm",
+  "calibration_images": 2000,
+  "calibration_seconds": 6.628342151641846,
+  "fp32_acc": 89.77,
+  "int8_acc": 89.87,
+  "fp32_mb": 42.69921684265137,
+  "int8_mb": 10.784658432006836
+}

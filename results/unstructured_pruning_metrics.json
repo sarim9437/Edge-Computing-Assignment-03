@@ -1,0 +1,34 @@
+{
+  "target_sparsity": 0.8,
+  "iterations": 4,
+  "base_acc": 89.77,
+  "final_acc": 89.98,
+  "final_sparsity": 80.00000358283222,
+  "minutes": 30.503225326538086,
+  "history": [
+    {
+      "iteration": 1,
+      "sparsity": 33.12597094753014,
+      "acc_after_prune": 89.71,
+      "acc_after_finetune": 89.72
+    },
+    {
+      "iteration": 2,
+      "sparsity": 55.278640444156544,
+      "acc_after_prune": 89.61,
+      "acc_after_finetune": 89.48
+    },
+    {
+      "iteration": 3,
+      "sparsity": 70.09302465561817,
+      "acc_after_prune": 89.61,
+      "acc_after_finetune": 89.61
+    },
+    {
+      "iteration": 4,
+      "sparsity": 80.00000358283222,
+      "acc_after_prune": 89.4,
+      "acc_after_finetune": 89.75
+    }
+  ]
+}
